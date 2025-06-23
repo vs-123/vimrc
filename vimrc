@@ -33,6 +33,7 @@ set smartindent
 set scrolloff=3
 set textwidth=80
 "set colorcolumn=+1
+set cursorline
 set formatoptions+=t
 set wildmenu
 set incsearch

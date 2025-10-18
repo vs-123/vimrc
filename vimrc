@@ -59,6 +59,9 @@ nnoremap <leader>H :tabm-1<CR>
 nnoremap <leader>L :tabm+1<CR>
 nnoremap <leader>q :tabclose<CR>
 
+nnoremap <leader>t :term<CR>
+tnoremap <esc> <C-\><C-n>
+
 nnoremap <leader>e :NERDTreeToggle<CR>
 nnoremap <leader>E :NERDTreeToggle %:h<CR>
 
@@ -68,6 +71,7 @@ nnoremap <leader>k :LspHover<CR>
 nnoremap <leader>K :LspDocumentDiagnostics<CR>
 nnoremap <leader>rn :LspRename<CR>
 nnoremap <leader>ca :LspCodeAction<CR>
+
 
 
 " Plugins
@@ -104,4 +108,6 @@ highlight LspDiagnosticsUnderlineWarning cterm=underline ctermfg=Yellow ctermbg=
 highlight LspDiagnosticsUnderlineInformation cterm=underline ctermfg=Blue ctermbg=NONE guifg=Blue gui=underline guibg=NONE
 " Hints: cyan underline
 highlight LspDiagnosticsUnderlineHint cterm=underline ctermfg=Cyan ctermbg=NONE guifg=Cyan gui=underline guibg=NONE
+" CursorLine: transparent
+highlight CursorLine cterm=NONE ctermbg=NONE guibg=NONE
 
